@@ -8,10 +8,14 @@
       "type": "number",
       "multipleOf": 1.0
     },
-    "status": {
+    "statusCode": {
+      "type": "number",
+      "multipleOf": 1.0
+    },
+    "reasonPhrase": {
       "type": "string"
     }
   },
-  "required": [ "id", "status" ],
+  "required": [ "id", "statusCode", "reasonPhrase" ],
   "additionalProperties": false
 }
